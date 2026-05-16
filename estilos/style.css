@@ -157,10 +157,17 @@ article#video .video-container{
   gap: 30px;
 }
 
+@media screen and (min-width: 768px){
+  #skill-container{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 #skill-container .info{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 #skill-container .nome{
@@ -186,9 +193,3 @@ article#video .video-container{
   border-radius: 4px;
 }
 
-@media screen and (min-width: 768px){
-  #skill-container{
-    grid-template-columns: 1fr 1fr;
-  }
-  
-}
