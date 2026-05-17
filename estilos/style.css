@@ -250,6 +250,11 @@ article#video .video-container{
   border-radius: 8px;
 }
 
+#projeto-container h3{
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
 footer{
   background-color: var(--destaque);
   color: var(--texto-inverso);
@@ -269,6 +274,22 @@ footer a:hover{
 }
 
 @media screen and (min-width: 768px){
+  main{
+    grid-template-columns: auto 300px 1fr auto;
+
+  }
+  section#ficha{
+    grid-column: 2 / 3;
+    height: fit-content;
+    position: sticky;
+    top: 80px;
+  }
+
+  section#detalhes{
+    grid-column: 3 / 4;
+  }
+
+
   #skill-container{
     grid-template-columns: 1fr 1fr;
   }
