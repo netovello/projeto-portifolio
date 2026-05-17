@@ -242,7 +242,7 @@ article#video .video-container{
   cursor: pointer;
 }
 
-#projeto-container .foto{
+#projeto-container .foto {
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
