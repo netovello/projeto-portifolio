@@ -296,6 +296,13 @@ footer a:hover{
     grid-column: 3 / 4;
   }
 
+  section .video-container{
+    position: absolute;
+    max-width: 600px;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+  }
 
   #skill-container{
     grid-template-columns: 1fr 1fr;
